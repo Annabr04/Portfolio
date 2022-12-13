@@ -1,0 +1,44 @@
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff; 
+}
+
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+    }    
+}
+
+main {
+    background-color: #000000;
+}
+
+header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+}
+
+.content {
+    flex: 1;
+    background: #129a22;
+}
+
+aside {
+    flex: 1;
+    border: 1px solid #000000;
+    background: #673ab7;
+}
+
+footer {
+    border: 1px solid #000000;
+    background: #616161;
+}
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
+}
